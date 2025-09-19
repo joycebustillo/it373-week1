@@ -1,6 +1,12 @@
 {% extends "base.html" %}
 {% block title %}{{ title }}{% endblock %}
 {% block content %}
+<h1> About me </h1>
+<nav>
+    <a href="{% url 'home' %}" style="margin-right: 10px;">Home</a>
+    <a href="{% url 'about' %}" style="margin-right: 10px;">About</a>
+</nav>
+<hr>
 <p>Name: Joyce N. Bustillo</p>
 <p>Student ID: 2023-25863</p>
 {% endblock %}
