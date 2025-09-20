@@ -1,0 +1,5 @@
+[/] Confirmed Python installation and version
+[/] Activated the virtual environment (venv)
+[/] Confirmed Django installation and version
+[/] Runserver working correctly
+[/] Established connection to Git remote repository
